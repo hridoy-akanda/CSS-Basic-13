@@ -1,0 +1,64 @@
+/* header starts */
+header{
+    flex-direction: row;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    z-index: 10;
+}
+header nav{
+    flex-direction: row;
+}
+header nav a{
+    margin:auto 15px;
+}
+/* header ends */
+/* section 1 starts */
+#section1{
+    flex-direction: row;
+    min-height:95vh;
+}
+
+#section1 article{
+    flex:.5;
+    text-align: left;
+    padding:20px;
+}
+#section1 aside{
+    flex:.5;
+}
+/* section 1 ends */
+/* section 2 starts */
+#section2 .card-container{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#section2 .card{
+    margin:auto 10px;
+    width:25%;
+}
+/* section 2 ends */
+/* section 3 starts */
+#section3 .images img{
+    width: 20%;
+}
+/* section 3 ends */
+/* section 4 starts */
+#section4 .blog-post{
+    width:60%;
+}
+/* section 4 ends */
+/* section 5 starts */
+
+.form-container{
+    width:40%;
+}
+
+/* section 5 ends */
+/* footer starts */
+footer{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* footer ends */

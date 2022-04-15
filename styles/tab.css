@@ -1,0 +1,67 @@
+/* section 2 starts */
+#section2 .card{
+   
+    max-width: 50%;
+    
+}
+/* section 2 ends */
+/* section 3 starts */
+#section3 .images{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section3 .images img{
+    width:50%;
+    padding:20px;
+}
+/* section 3 ends */
+/* section 4 starts */
+#section4 .blog-post{
+    display:flex;
+    padding:0px;
+    width:90%;
+    padding-bottom: 0;  
+}
+#section4 .image{
+    flex:1;
+}
+#section4 .blog-post img{
+    display:block;
+}
+#section4 .blog-post .body{
+    padding: 0px;
+    padding-left: 10px;
+    padding-top:5px;
+}
+#section4 .body{
+    flex:2;
+}
+/* section 4 ends */
+/* section 5 starts */
+
+.form-container{
+    width:60%;
+    align-items: unset;
+}
+.form-section{
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+label{
+    flex:.3;
+    text-align: left;
+}
+input, textarea{
+    flex:.7;
+}
+.form-btn{
+    justify-content: flex-end;
+}
+
+/* section 5 ends */
+/* footer starts */
+
+
+/* footer ends */

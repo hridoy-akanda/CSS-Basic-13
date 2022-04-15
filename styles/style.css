@@ -1,0 +1,242 @@
+/* font-family: 'Italianno', cursive;
+font-family: 'Roboto', sans-serif; */
+
+/* common codes starts */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    font-size: 62.5%;
+}
+.heading h2{
+    font-family:'Italianno', cursive;
+    font-size:5rem;
+    text-align: center;
+    margin:50px auto;
+}
+.btn button, button{
+    border:none;
+    width:100px;
+    height:30px;
+    background-color: goldenrod;
+    border-radius:5px;
+}
+textarea{
+    resize: none;
+}
+/* hr{
+    margin:30px auto;
+} */
+/* common codes ends */
+/* header starts */
+header{
+    min-height: 5vh;
+    padding:20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header img{
+    width:80px;
+    height:80px;
+    border:2px solid white;
+}
+header nav{
+    display:flex;
+    flex-direction: column;
+}
+header nav a{
+    color:white;
+    font-size: 1.6rem;
+    margin:10px auto;
+}
+header nav a:hover{
+    background-color: blue;
+}
+/* header ends */
+/* section1 starts */
+#section1{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 95vh; */
+}
+#section1 article{
+    text-align: center;
+}
+#section1 article h1{
+    font-size: 3rem;
+    background-color: black;
+    color:white;
+    display: inline;
+}
+#section1 article p{
+    margin:10px auto;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+#section1 aside img{
+    width:100%;
+    border:5px solid black;
+}
+/* section 1 ends */
+/* section 2 starts */
+#section2{
+    padding:20px;
+    background-color: gray;
+}
+#section2 .heading{
+    color:white;
+}
+#section2 .card-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#section2 .card{
+    background-color: lightgray;
+    padding:10px;
+    margin:10px auto;
+    border-radius: 10px;
+    max-width: 70%;
+    text-align: center;
+}
+#section2 .card-title{
+    font-size: 2rem;
+    padding:10px;
+}
+#section2 .card-body{
+    font-size: 1.3rem;
+    padding:10px;
+}
+#section2 .card-btn{
+    padding:10px;
+}
+/* section 2 ends */
+/* section 3 starts */
+#section3 {
+    padding:20px;
+}
+#section3 .images{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+#section3 .images img{
+    width:100%;
+   margin:20px auto;
+   transition:.4s;
+}
+#section3 .images img:hover{
+    transform:scale(1.1);
+}
+/* section 3 ends */
+/* section 4 starts */
+#section4{
+    padding:20px;
+}
+#section4 .post-container{
+    display:flex;
+    flex-direction: column;
+}
+#section4 .blog-post{
+    /* padding:10px; */
+    box-shadow: .1rem .1rem .1rem gray, -.1rem 0rem 1rem gray;
+    margin:20px auto;
+    width:80%;
+}
+#section4 .blog-post .body{
+    padding:10px;
+}
+.blog-post h3{
+    font-size: 2rem;
+}
+.blog-post h4{
+    font-size: 1.5rem;
+}
+.blog-post p{
+    font-size: 1.3rem;
+}
+#section4 button{
+    margin: 10px auto;
+}
+#section4 .blog-post img{
+    width:100%;
+    display:block;
+}
+/* section 4 ends */
+/* section 5 starts */
+
+#section5{
+    padding:20px;
+    color:white;
+    background-color: gray;
+}
+.form-container{
+    box-shadow: .1rem .1rem .1rem #222, -.1rem 0 .1rem #222;
+    width:90%;
+    margin:20px auto;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-section{
+    display:flex;
+    flex-direction: column;
+}
+label{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+input, textarea{
+    margin-bottom: 5px;
+    border-radius:5px;
+    padding:5px 10px;
+    width:22rem;
+    height:6vh;
+}
+textarea{
+    height:12vh;
+}
+.form-btn button{
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* section 5 ends */
+/* footer starts */
+footer{
+    background-color: black;
+    color:white;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    font-size: 1.5rem;
+    padding:10px auto;
+    text-align: center;
+}
+footer .footer-icons i{
+    font-size: 2rem;
+    color:white;
+    margin:10px;
+}
+
+/* footer ends */
